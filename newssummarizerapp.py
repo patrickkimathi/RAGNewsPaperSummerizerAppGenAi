@@ -8,16 +8,7 @@ Original file is located at
 """
 
 ## Import Libraries
-#!pip install langchain langchain-community transformers sentence-transformers faiss-cpu pypdf langchain-text-splitters
-
-from langchain_community.document_loaders import PyPDFLoader #for
-from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM, AutoModelForCausalLM, pipeline
-
-## Import Libraries
-#!pip install langchain langchain-community transformers sentence-transformers faiss-cpu pypdf langchain-text-splitters langchain-huggingface
+!pip install langchain langchain-community transformers sentence-transformers faiss-cpu pypdf langchain-text-splitters langchain-huggingface
 
 from langchain_community.document_loaders import PyPDFLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
