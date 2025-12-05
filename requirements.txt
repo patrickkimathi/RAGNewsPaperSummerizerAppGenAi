@@ -3,8 +3,11 @@ langchain
 langchain-community
 langchain-text-splitters
 langchain-huggingface
-transformers
 sentence-transformers
 faiss-cpu
 pypdf
-huggingface-hub
+bs4
+requests
+beautifulsoup4
+nltk
+python-dotenv
