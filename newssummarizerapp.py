@@ -303,8 +303,8 @@ import time
 
 # Kill any processes potentially using port 8501 or named 'streamlit'
 # This is a precaution to ensure a clean start
-!kill $(lsof -t -i:8501) 2>/dev/null || true
-!pkill -f streamlit 2>/dev/null || true
+#!kill $(lsof -t -i:8501) 2>/dev/null || true
+#!pkill -f streamlit 2>/dev/null || true
 
 # Ensure the previous log file is removed for a fresh start
 if os.path.exists("streamlit_output.log"):
