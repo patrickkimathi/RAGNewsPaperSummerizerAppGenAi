@@ -230,8 +230,8 @@ Ensure that Streamlit is installed in the environment.
 To ensure Streamlit is installed, I will use `pip install streamlit`.
 """
 
-import sys
-!{sys.executable} -m pip install streamlit
+#import sys
+#!{sys.executable} -m pip install streamlit
 
 """**Reasoning**:
 Streamlit has been installed. Now, I will run the `app.py` script to start the Streamlit application.
